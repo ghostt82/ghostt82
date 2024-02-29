@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "notes": "",
+  "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
+  "keyboard": "themadnoodle/noodlepad/v1",
+  "keymap": "themadnoodle_noodlepad_v1_layout_ortho_3x3_mine",
+  "layout": "LAYOUT_ortho_3x3",
+  "layers": [
+    [
+      "KC_MPRV",
+      "LT(2,KC_W)",
+      "KC_MNXT",
+      "KC_MSTP",
+      "KC_MPLY",
+      "KC_MSEL",
+      "KC_CALC",
+      "KC_MAIL",
+      "LT(1,KC_MYCM)"
+    ],
+    [
+      "RGB_MOD",
+      "RGB_TOG",
+      "RGB_RMOD",
+      "RGB_VAD",
+      "RGB_M_P",
+      "RGB_VAI",
+      "LT(3,KC_NO)",
+      "RGB_M_B",
+      "KC_TRNS"
+    ],
+    [
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS"
+    ],
+    [
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS"
+    ],
+    [],
+    [],
+    [],
+    [
+      "KC_E",
+      "KC_R",
+      "KC_T",
+      "KC_CAPS",
+      "KC_A",
+      "KC_S",
+      "KC_D",
+      "KC_F",
+      "KC_G"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "KC_LSFT",
+      "KC_Z",
+      "KC_X",
+      "KC_C",
+      "KC_V",
+      "KC_B",
+      "KC_LCTL",
+      "KC_LALT",
+      "KC_SPC"
+    ],
+    [
+      "KC_BSLS",
+      "KC_1",
+      "KC_2",
+      "KC_3",
+      "KC_4",
+      "KC_5",
+      "KC_6",
+      "KC_Q",
+      "KC_W"
+    ]
+  ],
+  "author": ""
+}
